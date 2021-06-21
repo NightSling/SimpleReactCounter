@@ -6,9 +6,11 @@ class NavbarMain extends React.Component {
   render() {
     return (
     <div className="navbar">
-			<Navbar bg="dark" variant="dark">
+			<Navbar bg="dark" variant="dark" expand="lg" >
 				<Navbar.Brand href="#">DayWeb</Navbar.Brand>
-				<Nav className="mr-auto">
+                                <Navbar.Toggle aria-controls="navbarScroll" />
+                                <Navbar.Collapse id="navbarScroll">
+                                <Nav className="mr-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll>
 					<Nav.Link href="#">Home</Nav.Link>
 					<Nav.Link href="https://github.com/NightSling">GitHub</Nav.Link>
 					<Nav.Link href="https://twitter.com/dayslingthedev">Twitter</Nav.Link>
