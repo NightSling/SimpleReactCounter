@@ -1,6 +1,6 @@
 .navbar {    
 	top: auto;
-    width: -webkit-fill-available;
+    width: 100%;
 }
 
 .navbar-nav {
