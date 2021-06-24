@@ -1,0 +1,30 @@
+.blockquote-footer::before {
+    content: "" !important;
+}
+
+.CountText {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-40%, -40%);
+    transform: translate(-40%, -40%);
+    font-size: 50px;
+}
+
+.Count {
+    position: absolute;
+    top: 50%;
+    left: 51.111%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+.Count1 {
+    position: absolute;
+    top: 64%;
+    left: 52.01%;
+    -ms-transform: translate(-60%, -60%);
+    transform: translate(-60%, -60%);
+    font-size: 20px;
+}
